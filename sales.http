@@ -1,0 +1,45 @@
+GET http://localhost:5000/api/sales
+    Content-Type: application/json
+
+### get user
+GET http://localhost:5000/api/sales/6d3bfe6b-ac63-407b-8f6d-b099c1c71240
+    Content-Type: application/json
+
+
+###daily-report
+POST http://localhost:5000/api/sales/report/daily-report
+    Content-Type: application/json
+
+{ 
+    "day": "mon", 
+    "dd": "22", 
+    "month": "mar",
+     "yy": "2021"  
+}
+
+
+###Montly-report
+POST http://localhost:5000/api/sales/report/monthly-report
+    Content-Type: application/json
+
+{ 
+    "month": "mar",
+     "yy": "2021"  
+}
+
+###yearly-report
+POST http://localhost:5000/api/sales/report/yearly-report
+    Content-Type: application/json
+
+{ 
+    "yy": "2021"  
+}
+
+### create users    
+POST http://localhost:5000/api/sales
+    Content-Type: application/json
+
+{ 
+  "username":"vivekmethew8@gmail.com",
+  "amount":122
+}

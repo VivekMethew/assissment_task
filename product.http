@@ -1,0 +1,15 @@
+GET http://localhost:5000/api/products
+    Content-Type: application/json
+
+### get user
+GET http://localhost:5000/api/products/6d3bfe6b-ac63-407b-8f6d-b099c1c71240
+    Content-Type: application/json
+
+### create users    
+POST http://localhost:5000/api/products
+    Content-Type: application/json
+
+{ 
+  "pname": "Keyboard",
+  "price": "1250",
+}

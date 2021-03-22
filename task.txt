@@ -1,0 +1,20 @@
+Assignment
+
+Stacks
+Node JS
+PostgreSequel
+
+Create a system with the following table:
+
+ Sales Table (id, userName, amount, date)
+	1. API to add data into sales table
+	2. API to fetch stats from the sales table e.g,
+	-Daily stats (If I pass daily in api param 
+  it will give me stats(sum of amount) on 
+  the basis of each hour of the day from sales table)	
+  -Weekly stats (If I pass weekly in api param 
+  it will give me stats(sum of amount)
+   on the basis of each day of the week from sales table)	
+  - Weekly stats (If I pass monthly in api param 
+  it will give me stats(sum of amount) 
+  on the basis of each day of the month from sales table)

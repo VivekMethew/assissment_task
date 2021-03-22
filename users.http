@@ -1,0 +1,18 @@
+GET http://localhost:5000/api/users
+    Content-Type: application/json
+
+### get user
+GET http://localhost:5000/api/users/6d3bfe6b-ac63-407b-8f6d-b099c1c71240
+    Content-Type: application/json
+
+### create users    
+POST http://localhost:5000/api/users
+    Content-Type: application/json
+
+{ 
+  "fname":"vivek", 
+  "lname":"kumar",
+  "email":"vivekmethew8@gmail.com",
+  "pass":"123456", 
+  "phone":"9718546885"
+}
